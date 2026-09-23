@@ -1,10 +1,20 @@
+<div align="center">
+
+<img src="brand/header.svg" alt="DoVi5 Media Guard wordmark with a protected film frame" width="760">
+
 # DoVi5 Media Guard
+
+Find incompatible Dolby Vision Profile 5 files, delete them under guarded conditions, and queue Sonarr or Radarr recovery.
 
 [![Verification](https://github.com/Herbertmt978/dovi5-media-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/Herbertmt978/dovi5-media-guard/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/Herbertmt978/dovi5-media-guard)](https://github.com/Herbertmt978/dovi5-media-guard/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-0F766E.svg)](LICENSE)
 
-Permanently remove Dolby Vision Profile 5 media that is unsuitable for your playback setup, then ask Sonarr or Radarr to find a replacement.
+[Before you install](#why-this-exists) | [Installation](#install) | [Configuration](#configure) | [Scan decisions](#what-happens-during-a-scan) | [Recovery](#sonarr-radarr-and-plex) | [Security](#privacy-and-security) | [Development](#development)
+
+</div>
+
+The deletion policy is intended for playback setups where Profile 5 is unsuitable. Review the warning below and the scan decisions before enabling the timer.
 
 > [!CAUTION]
 > This service **permanently deletes media files**. It has no quarantine, undo, recycle bin, or scanner preview mode. `SERVARR_DRY_RUN=1` aborts the scanner; it is not a simulation. Once configuration validation succeeds, the installer enables a timer that may become due immediately. Verify your backups, permissions, library mappings, and Servarr recovery flow before enabling it.

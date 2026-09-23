@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-labelledby="title desc">
+  <title id="title">DoVi5 Media Guard</title>
+  <desc id="desc">A protected film frame beside the project name.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0B1730"/>
+      <stop offset="1" stop-color="#172B52"/>
+    </linearGradient>
+    <linearGradient id="accent" x2="1" y2="1">
+      <stop stop-color="#42D8E8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="190" rx="24" fill="url(#background)"/>
+  <path d="M760 0h240v190H680z" fill="#233A68" opacity=".28"/>
+  <path d="M827 0h173v190H748z" fill="#A78BFA" opacity=".06"/>
+  <rect x="45" y="39" width="115" height="112" rx="15" fill="#102647" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M69 41v107M136 41v107" stroke="#A3DDE9" stroke-width="3" opacity=".65"/>
+  <path d="M45 65h115M45 125h115" stroke="#A3DDE9" stroke-width="3" opacity=".65"/>
+  <path d="m83 96 14 13 27-31" fill="none" stroke="#D3FBFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="195" y="85" fill="#F5F9FF" font-family="Segoe UI, Arial, sans-serif" font-size="47" font-weight="700">DoVi5 Media Guard</text>
+  <text x="197" y="129" fill="#9EE4EC" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="500">Profile 5 detection and recovery</text>
+  <path d="M197 148h126" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+</svg>
