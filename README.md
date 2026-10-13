@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="brand/header.svg" alt="DoVi5 Media Guard wordmark with a protected film frame" width="760">
+<img src="brand/header.svg" alt="DoVi5 Media Guard: Profile 5 film frames protected by a guard shield with a recovery loop" width="880">
 
 # DoVi5 Media Guard
 
